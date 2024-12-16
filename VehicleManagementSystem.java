@@ -3,5 +3,7 @@ public class VehicleManagementSystem {
 
         Vehicle newVehicle = new Vehicle("Subaru", "Crosstrek", "Automatic", true, 2017);
         newVehicle.displayInfo();
+        Car newCar = new Car("Hyundai", "Tiburon", "Automatic", true, 2005, 2);
+        newCar.displayInfo();
     }
 }

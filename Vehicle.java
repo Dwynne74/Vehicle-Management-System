@@ -1,4 +1,4 @@
-public class Vehicle {
+class Vehicle {
 
     String make;
     String model;
@@ -40,8 +40,8 @@ public class Vehicle {
     }
 
     public void displayInfo() {
-        System.out.println("Make: " + make + "| Model " + model + "| Year: " + year
-                + "| Transmission: " + transmission + "| Title: " + getTitle());
+        System.out.println("Make: " + make + "| Model: " + model + "| Year: " + year
+                + "| Transmission: " + transmission + "| Title: " + getTitle() + "|");
     }
 
 }
