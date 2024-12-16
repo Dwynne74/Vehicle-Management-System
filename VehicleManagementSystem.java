@@ -5,5 +5,7 @@ public class VehicleManagementSystem {
         newVehicle.displayInfo();
         Car newCar = new Car("Hyundai", "Tiburon", "Automatic", true, 2005, 2);
         newCar.displayInfo();
+        Motorcycle newMotorcycle = new Motorcycle("Suzuki", "Ninja", "Automatic", false, 2018, 3);
+        newMotorcycle.displayInfo();
     }
 }
